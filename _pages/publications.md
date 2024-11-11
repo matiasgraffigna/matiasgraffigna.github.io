@@ -1,8 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
-description: las publicaciones tuyas.
+title: Publicaciones académicas
 nav: true
 nav_order: 2
 ---
