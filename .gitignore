@@ -1,0 +1,19 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
+# Jekyll specific ignores
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+vendor/
+Gemfile.lock
+
+# Python
+.venv
+
+# Updater
+.temp_repo_download
