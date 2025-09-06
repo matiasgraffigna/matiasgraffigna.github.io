@@ -1,10 +1,9 @@
 - title: Investigación
   type: time_table
   contents:
-    - title: <a href="https://proyectorumia.blogspot.com/p/horizontes-entramados-especulaciones.html">Proyecto Rumia</a>
-      institution: Universidad Nacional de Río Negro
+    - institution: Universidad Nacional de Río Negro
       year: 2024-2025
-      description: 'Proyecto “Horizontes Entramados: especulaciones colectivas para futuros amables”: Proyecto Rumia, Universidad Nacional de Río Negro, beca Omega Resilience Awards.'
+      description: 'Proyecto “Horizontes Entramados: especulaciones colectivas para futuros amables”: <a href="https://proyectorumia.blogspot.com/p/horizontes-entramados-especulaciones.html">Proyecto Rumia</a>, Universidad Nacional de Río Negro, beca Omega Resilience Awards.'
     - title: Seminario de investigación de Christian Beyer
       institution: Universidad de Göttingen
       year: 2017-2022

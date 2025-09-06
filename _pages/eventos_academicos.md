@@ -1,8 +1,7 @@
 ---
-layout: page
+layout: cv
 title: Eventos académicos
 permalink: /eventos_academicos/
 nav: false
-description: Eventos académicos.
+file_name: eventos_academicos
 ---
-

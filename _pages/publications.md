@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: default
 permalink: /publications/
-title: Publicaciones académicas
+title: Publicaciones
 nav: true
 nav_order: 2
 ---
