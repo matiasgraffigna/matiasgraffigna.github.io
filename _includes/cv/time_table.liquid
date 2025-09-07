@@ -1,9 +1,15 @@
+{% if entry.description %}
+  <div class="mb-4">
+    {{ entry.description }}
+  </div>
+{% endif %}
+
 <ul class="card-text font-weight-light list-group list-group-flush">
   {% for content in entry.contents %}
     <li class="list-group-item">
-      <div class="row">
+      <div class="row align-items-start">
         {% if content.year %}
-          <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px">
+          <div class="col-md-2 text-center">
             <table class="table-cv">
               <tbody>
                 <tr>
@@ -27,12 +33,24 @@
             </table>
           </div>
         {% endif %}
-        <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
-          {% if content.title %}
-            <h6 class="title font-weight-bold ml-1 ml-md-4">{{ content.title }}</h6>
+
+        <div class="col-md-3 text-center mb-3 mb-md-0">
+          {% if content.image %}
+            <img src="/assets/img/{{ content.image }}" alt="{{ content.title }} cover" style="width: 170px; height: 170px; object-fit: contain;">
           {% endif %}
+        </div>
+
+        <div class="col-md-7 mt-2 mt-md-0">
+          {% if content.title %}
+            <h6 class="title font-weight-bold">{{ content.title }}</h6>
+          {% endif %}
+          
+          {% if content.author %}
+            <h6 class="author font-italic text-muted" style="margin-bottom: 1rem;">{{ content.author }}</h6>
+          {% endif %}
+
           {% if content.department or content.institution %}
-            <table class="table-cv ml-1 ml-md-4 institution">
+            <table class="table-cv institution">
               <tbody>
                 {% if content.institution %}
                   <tr>
@@ -53,9 +71,11 @@
               </tbody>
             </table>
           {% endif %}
+
           {% if content.maindescription %}
-            <div class="ml-1 ml-md-4">{{ content.maindescription }}</div>
+            <div>{{ content.maindescription }}</div>
           {% endif %}
+
           {% if content.description %}
             <ul class="items">
               {% for item in content.description %}
@@ -64,9 +84,7 @@
                     <span class="item-title">{{ item.title }}</span>
                     <ul class="subitems">
                       {% for subitem in item.contents %}
-                        <li>
-                          <span class="subitem">{{ subitem }}</span>
-                        </li>
+                        <li><span class="subitem">{{ subitem }}</span></li>
                       {% endfor %}
                     </ul>
                   {% else %}
@@ -76,6 +94,7 @@
               {% endfor %}
             </ul>
           {% endif %}
+
           {% if content.items %}
             <ul class="items">
               {% for item in content.items %}
@@ -84,9 +103,7 @@
                     <span class="item-title">{{ item.title }}</span>
                     <ul class="subitems">
                       {% for subitem in item.contents %}
-                        <li>
-                          <span class="subitem">{{ subitem }}</span>
-                        </li>
+                        <li><span class="subitem">{{ subitem }}</span></li>
                       {% endfor %}
                     </ul>
                   {% else %}
@@ -96,8 +113,9 @@
               {% endfor %}
             </ul>
           {% endif %}
+
           {% if content.linkitems %}
-            <div class="container-links ml-1 ml-md-4">
+            <div class="container-links">
               {% for item in content.linkitems %}
                 {% if item.link %}
                   <div class="container-link-button">
