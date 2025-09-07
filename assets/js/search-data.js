@@ -16,12 +16,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-traducción-y-corrección",
-          title: "Traducción y corrección",
-          description: "Experiencia docente previa.",
+        },{id: "nav-traducciónes-y-correcciónes",
+          title: "Traducciónes y correcciónes",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/traduccion_y_correccion/";
+            window.location.href = "/traducciones_y_correcciones/";
           },
         },{id: "dropdown-docencia",
               title: "Docencia",
