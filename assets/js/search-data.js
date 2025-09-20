@@ -30,7 +30,14 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/traducciones_y_correcciones/";
           },
-        },{id: "dropdown-docencia",
+        },{id: "dropdown-formación",
+              title: "Formación",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/formacion/";
+              },
+            },{id: "dropdown-docencia",
               title: "Docencia",
               description: "",
               section: "Dropdown",
@@ -57,13 +64,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("mailto:%6D%61%74%69%61%73%67%72%61%66%66%69%67%6E%61@%67%6D%61%69%6C.%63%6F%6D", "_blank");
-        },
-      },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://inspirehep.net/authors/", "_blank");
         },
       },{
         id: 'social-instagram',
