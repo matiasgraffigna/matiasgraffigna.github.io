@@ -5,6 +5,9 @@ nav: true
 nav_order: 8
 dropdown: true
 children:
+  - title: Formación
+    permalink: /formacion/
+  - title: divider
   - title: Docencia
     permalink: /docencia/
   - title: divider
