@@ -13,7 +13,7 @@ profile:
     <p>Argentina</p>
     <br>
     <img src="/assets/img/palestine.png" style="width: 40px; height: 40px; object-fit: contain;"></img>
-    <p class="caption"><em>"Palestina libre"</em></p>
+    <p class="caption"><em">Palestina libre</em></p>
 
 
 news: false # includes a list of news items
