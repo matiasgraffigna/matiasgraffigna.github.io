@@ -7,9 +7,10 @@
         - 'Seminario de posgrado en la Universidad Nacional de Río Negro: “Historia y Filosofía de la Ciencia: Reflexiones sobre Problemáticas Actuales” (30hs)'
     - institution: Georg-August-Universität Göttingen, Alemania
       year: 2019-2021
-      description:
-        - "<b>Hauptseminar (seminario de grado)</b> „Wissen über das Alter Ego: Einfühlung und Fremderfahrung aus der Perspektive der Phänomenologie und der kognitiven Psychologie“ (“El saber acerca del alter ego: Empatía y experiencia del otro desde la perspectiva de la fenomenología y la ciencia cognitiva”)."
-        - "<b>Hauptseminar (seminario de grado)</b> „Husserls Sprachphilosophie: Sprache und Bedeutung aus phänomenologischer Perspektive“ (“La filosofía del lenguaje de Husserl: Lenguaje y significado desde la perspectiva fenomenológica”) en conjunto con Prof. Dr. Christian Beyer."
+      maindescription: "<b>Hauptseminar (seminario de grado)</b><br>„Wissen über das Alter Ego: Einfühlung und Fremderfahrung aus der Perspektive der Phänomenologie und der kognitiven Psychologie“ (“El saber acerca del alter ego: Empatía y experiencia del otro desde la perspectiva de la fenomenología y la ciencia cognitiva”).
+        <br>
+        <br>
+        <b>Hauptseminar (seminario de grado)</b><br>„Husserls Sprachphilosophie: Sprache und Bedeutung aus phänomenologischer Perspektive“ (“La filosofía del lenguaje de Husserl: Lenguaje y significado desde la perspectiva fenomenológica”) en conjunto con Prof. Dr. Christian Beyer."
 - title: Educación media y terciaria
   type: time_table
   contents:
