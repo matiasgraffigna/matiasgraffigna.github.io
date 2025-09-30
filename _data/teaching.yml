@@ -1,0 +1,39 @@
+- title: Universitario
+  type: time_table
+  contents:
+    - institution: Universidad Nacional de Río Negro, Argentina
+      year: 2025
+      maindescription:
+        - 'Seminario de posgrado en la Universidad Nacional de Río Negro: “Historia y Filosofía de la Ciencia: Reflexiones sobre Problemáticas Actuales” (30hs)'
+    - institution: Georg-August-Universität Göttingen, Alemania
+      year: 2019-2021
+      maindescription: "<b>Hauptseminar (seminario de grado)</b><br>„Wissen über das Alter Ego: Einfühlung und Fremderfahrung aus der Perspektive der Phänomenologie und der kognitiven Psychologie“ (“El saber acerca del alter ego: Empatía y experiencia del otro desde la perspectiva de la fenomenología y la ciencia cognitiva”).
+        <br>
+        <br>
+        <b>Hauptseminar (seminario de grado)</b><br>„Husserls Sprachphilosophie: Sprache und Bedeutung aus phänomenologischer Perspektive“ (“La filosofía del lenguaje de Husserl: Lenguaje y significado desde la perspectiva fenomenológica”) en conjunto con Prof. Dr. Christian Beyer."
+- title: Educación media y terciaria
+  type: time_table
+  contents:
+    - institution: <a href='https://englishservices.com.ar/'>English Services</a>
+      year: 2023-2025
+      maindescription: "Profesor de alemán particular para <a href='https://englishservices.com.ar/'>English Services</a>"
+    - institution: <a href='https://www.avesargentinas.org.ar/escuela-argentina-de-naturalistas'>Escuela Argentina de Naturalistas</a>
+      year: 2024
+      maindescription: "Docente en la <a href='https://www.avesargentinas.org.ar/escuela-argentina-de-naturalistas'>Escuela Argentina de Naturalistas</a> (Materia: “Naturaleza y sociedad” 21hs)."
+    - institution: <a href='https://www.ibo.org/'>International Bacchelorate</a>
+      year: 2024
+      maindescription: "Evaluador de filosofía para <a href='https://www.ibo.org/'>International Bacchelorate</a>."
+    - institution: <a href='http://institutoyeshudson.com/'>Yes Hudson Institute</a>
+      year: 2023-2024
+      maindescription: "Profesor de inglés en el <a href='http://institutoyeshudson.com/'>Yes Hudson Institute</a>."
+    - institution: Cruz del Sur (<a href='https://www.southerncross.edu.ar/'>Southern Cross</a>)
+      year: 2008-2016
+      maindescription: "Profesor en Colegio Bilingüe Cruz del Sur (<a href='https://www.southerncross.edu.ar/'>Southern Cross</a>), San Isidro, Buenos Aires. Asignaturas: Filosofía; Debate-Coach en inglés y español; Global Issues and Perspectives (GIP, Asuntos y perspectivas globales)."
+- title: Otros
+  type: time_table
+  contents:
+    - title: Taller abierto al público
+      year: 2024
+      maindescription: "<a href=https://proyectorumia.blogspot.com/p/horizonte-entramados-talleres-septiembre.html>”Ciencia ficción y especulaciones creativas”</a>, en el contexto del proyecto de investigación “Horizontes entramados”. Bariloche, Argentina, 9/09 (3hs)."
+    - maindescription: "Curso online “Introducción al pensamiento filosófico” para el equipo de psicoterapia Hoy Hay Terapia (@hoyhayterapia). Marzo-julio (8hs)."
+      year: 2024

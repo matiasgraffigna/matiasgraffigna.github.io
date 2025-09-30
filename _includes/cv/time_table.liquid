@@ -1,0 +1,136 @@
+{% if entry.description %}
+  <div class="mb-4">
+    {{ entry.description }}
+  </div>
+{% endif %}
+
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% for content in entry.contents %}
+    <li class="list-group-item">
+      <div class="row align-items-start">
+        {% if content.year %}
+          <div class="col-md-2 text-center">
+            <table class="table-cv">
+              <tbody>
+                <tr>
+                  <td>
+                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">
+                      {{- content.year -}}
+                    </span>
+                  </td>
+                </tr>
+                {% if content.location %}
+                  <tr>
+                    <td>
+                      <p class="location">
+                        <i class="fa-solid fa-location-dot iconlocation"></i>
+                        {{ content.location }}
+                      </p>
+                    </td>
+                  </tr>
+                {% endif %}
+              </tbody>
+            </table>
+          </div>
+        {% endif %}
+
+        <div class="col-md-3 text-center mb-3 mb-md-0">
+          {% if content.image %}
+            <img src="/assets/img/{{ content.image }}" alt="{{ content.title }} cover" style="width: 170px; height: 170px; object-fit: contain;">
+          {% endif %}
+        </div>
+
+        <div class="col-md-7 mt-2 mt-md-0">
+          {% if content.title %}
+            <h6 class="title font-weight-bold">{{ content.title }}</h6>
+          {% endif %}
+          
+          {% if content.author %}
+            <h6 class="author font-italic text-muted" style="margin-bottom: 1rem;">{{ content.author }}</h6>
+          {% endif %}
+
+          {% if content.department or content.institution %}
+            <table class="table-cv institution">
+              <tbody>
+                {% if content.institution %}
+                  <tr>
+                    <td style="vertical-align: top; text-align: center" class="institution">
+                      <i class="fa-solid fa-building-columns iconinstitution"></i>
+                    </td>
+                    <td class="institution">{{ content.institution }}</td>
+                  </tr>
+                {% endif %}
+                {% if content.department %}
+                  <tr>
+                    <td style="vertical-align: top; text-align: center" class="department">
+                      <i class="fa-regular fa-circle-dot icondepartment"></i>
+                    </td>
+                    <td class="department">{{ content.department }}</td>
+                  </tr>
+                {% endif %}
+              </tbody>
+            </table>
+          {% endif %}
+
+          {% if content.maindescription %}
+            <div>{{ content.maindescription }}</div>
+          {% endif %}
+
+          {% if content.description %}
+            <ul class="items">
+              {% for item in content.description %}
+                <li>
+                  {% if item.contents %}
+                    <span class="item-title">{{ item.title }}</span>
+                    <ul class="subitems">
+                      {% for subitem in item.contents %}
+                        <li><span class="subitem">{{ subitem }}</span></li>
+                      {% endfor %}
+                    </ul>
+                  {% else %}
+                    <span class="item">{{ item }}</span>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+
+          {% if content.items %}
+            <ul class="items">
+              {% for item in content.items %}
+                <li>
+                  {% if item.contents %}
+                    <span class="item-title">{{ item.title }}</span>
+                    <ul class="subitems">
+                      {% for subitem in item.contents %}
+                        <li><span class="subitem">{{ subitem }}</span></li>
+                      {% endfor %}
+                    </ul>
+                  {% else %}
+                    <span class="item">{{ item }}</span>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+
+          {% if content.linkitems %}
+            <div class="container-links">
+              {% for item in content.linkitems %}
+                {% if item.link %}
+                  <div class="container-link-button">
+                    {% if item.linkname %}
+                      <a href="{{ item.link }}" target="_blank" class="btncv z-depth-0">{{ item.linkname }}</a>
+                    {% else %}
+                      <a href="{{ item.link }}" target="_blank" class="btncv z-depth-0">doc</a>
+                    {% endif %}
+                  </div>
+                {% endif %}
+              {% endfor %}
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>

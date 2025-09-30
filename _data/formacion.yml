@@ -1,0 +1,27 @@
+- type: time_table
+  contents:
+    - title: Doctorado en Filosofía
+      institution: Georg-August-Universität Göttingen
+      location: Alemania
+      year: 2017-2022
+      maindescription:
+        "<u><b>Tesis</b></u>: “Die drei Konzeptionen der Einfühlung in der Phänomenologie Husserls”<br><em>“Las tres concepciones de la empatía en la fenomenología de Husserl”</em>.
+        <br><u><b>Director</b></u>: Prof. Dr. Christian Beyer, Göttingen; co-director: Prof. Dr. Thiemo Breyer, Köln.
+        <br><u><b>Escrito</b></u>: <em>magna cum laude</em>
+        <br><u><b>Oral</b></u>: <em>summa cum laude</em>
+        <br>Beca doctoral completa del DAAD."
+    - title: "Curso formación docente “Hetairos – Lehren lernen von Prof(i)s” <em>(“Hetairos – Aprender a enseñar de los profesionales”)</em>"
+      year: 2019-2020
+      institution: Georg-August-Universität Göttingen
+      location: Alemania
+      maindescription: "<u><b>Duración</b></u>: 60hrs"
+    - title:  Licenciatura en Filosofía
+      institution: Universidad de Buenos Aires
+      location: Argentina
+      year: 2006-2015
+      maindescription: "<u><b>Tesis</b></u>: “La fenomenología del lenguaje en el Husserl temprano”. Jurado: Dr. Horacio Banega, Dr. Roberto Walton, Dra. Diana Maffia. Nota: 10 (sobresaliente)."
+    - title: Bachillerato polimodal bilingüe (inglés)
+      institution: Colegio Cruz del Sur (Southern Cross), San Isidro, Buenos Aires
+      location: Argentina
+      year: 2000-2005
+      maindescription: Especialización en ciencias sociales y humanidades.
