@@ -241,6 +241,8 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - update.py
+  - requirements.txt
 keep_files:
   - CNAME
   - .nojekyll
