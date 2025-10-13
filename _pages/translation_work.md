@@ -1,6 +1,6 @@
 ---
 layout: cv
-title: Traducciónes y correcciónes
+title: Traducciones y correcciones
 permalink: /traducciones_y_correcciones/
 nav: true
 nav_order: 5

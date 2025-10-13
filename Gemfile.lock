@@ -159,6 +159,8 @@ GEM
       terser (~> 1.2.3)
     jekyll-paginate-v2 (3.0.0)
       jekyll (>= 3.0, < 5.0)
+    jekyll-polyglot (1.11.0)
+      jekyll (>= 4.0, >= 3.0)
     jekyll-regex-replace (1.1.0)
     jekyll-sass-converter (3.1.0)
       sass-embedded (~> 1.75)
@@ -298,6 +300,7 @@ DEPENDENCIES
   jekyll-link-attributes
   jekyll-minifier
   jekyll-paginate-v2
+  jekyll-polyglot
   jekyll-regex-replace
   jekyll-scholar
   jekyll-sitemap
