@@ -204,7 +204,15 @@ ul.task-list input[type="checkbox"] {
       display: inline-block;
       margin: 0;
     }
+
+    b {
+      font-size: 1.25rem;
+    }
   }
+}
+
+.clearfix {
+  text-align: justify
 }
 
 .profile.float-right {
