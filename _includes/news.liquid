@@ -20,6 +20,8 @@
             <td>
               {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+              {% else if item.native %}
+                {{ item.content }}
               {% else %}
                 {% if item.image %}
                   <img src={{ item.image }} style="max-width: 100px; max-height: 100px; object-fit: contain; vertical-align: middle;"></img>
