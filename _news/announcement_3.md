@@ -4,6 +4,7 @@ title: 'En el marco de la muestra CONFLUENCIAS presentamos el Curso/ Taller abie
 date: 2025-10-18 15:59:00-0400
 native: true
 related_posts: false
+big_image: assets/img/news/taller_dialogos_con_las_posibilidades.jpeg
 ---
 
 En el marco de la muestra CONFLUENCIAS presentamos el Curso/ Taller abierto al público: "Ciencia ficción, política y futuro: diálogos con las posibilidades" a cargo de Matías Graffigna. 
