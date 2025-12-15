@@ -7,4 +7,4 @@ inline: false
 related_posts: false
 ---
 
-Realicé un seminario de posgrado: “Historia y Filosofía de la Ciencia: Reflexiones sobre Problemáticas Actuales” (30hs)
+Dicté un seminario de posgrado: “Historia y Filosofía de la Ciencia: Reflexiones sobre Problemáticas Actuales” (30hs)
