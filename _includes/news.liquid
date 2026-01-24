@@ -19,7 +19,7 @@
             <th scope="row" style="width: 20%; vertical-align: middle;">{{ item.date | date: '%b %d, %Y' }}</th>
             <td>
               {% if item.big_image %}
-                <img src={{ item.big_image }} style="max-width: 1000px; max-height: 1000px; object-fit: contain; display: block; vertical-align: middle;"></img>
+                <img src={{ item.big_image }} style="max-width: 750px; max-height: 750px; object-fit: contain; display: block; vertical-align: middle;"></img>
               {% endif %}
               {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
