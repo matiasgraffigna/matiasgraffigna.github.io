@@ -3,7 +3,7 @@ layout: post
 title: 'Curso virtual: "Filosofía de la ciencia ficción: naves espaciales, ecosistemas y aliens".'
 date: 2026-01-13 16:59:00-0400
 related_posts: false
-big_image: assets/img/news/flyer_presencial.png
+big_image: assets/img/news/flyer_presencial.jpg
 ---
 <br>
 
